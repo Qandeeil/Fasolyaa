@@ -1,0 +1,90 @@
+.reactOptionBottom {
+  margin-left: 38px;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 30%;
+  justify-content: flex-end;
+}
+
+.reactOptionBottom .optionBottom {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.reactOptionBottom .optionBottom img {
+  margin-right: 25px;
+}
+
+.reactOptionBottom .line {
+  border: 1px solid #e0e6f0;
+  width: 0;
+  height: 41px;
+  border-radius: 10px;
+  margin: 0 17px;
+}
+
+.volume-control {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  direction: rtl;
+  transform: scaleX(-1);
+}
+
+.volume-control img {
+  margin-right: 16px;
+}
+
+.volume-control input[type="range"] {
+  transform: rotate(180deg);
+  direction: ltr;
+  appearance: none;
+  width: 50%;
+  height: 5px;
+  background-color: #f0f0f0;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.volume-control input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  background-color: #9fd657;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.volume-control input[type="range"]::-moz-range-thumb {
+  width: 10px;
+  height: 10px;
+  background-color: #9fd657;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+
+.volume-control input[type="range"]::-moz-range-progress {
+  background-color: #9fd657;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+
+.volume-control input[type="range"]::-webkit-range-progress {
+  background-color: #9fd657;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+
+.volume-control input[type="range"]::-ms-thumb {
+  width: 10px;
+  height: 10px;
+  background-color: #9fd657;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}

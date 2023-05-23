@@ -1,0 +1,56 @@
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user .container {
+    background-color: #fca244;
+    width: 249px;
+    height: 65px;
+    border-radius: 32.5px;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.user .userInfo {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-right: 10.5px;
+}
+
+.user .userInfo .userImage {
+    width: 41px;
+    height: 41px;
+    background-color: #fff;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 10.5px;
+}
+
+.user .userInfo .userImage img {
+    margin-top: 5px;
+}
+
+.user .userInfo span {
+    color: #312858;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.user .arrowDown {
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.user .containerNotifications {
+    margin-top: 5px;
+    margin-left: 27px;
+    cursor: pointer;
+}

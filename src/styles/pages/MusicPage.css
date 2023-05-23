@@ -1,0 +1,9 @@
+.musicPage {
+  margin-right: 48px;
+}
+
+.musicPage .containerSongs {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}

@@ -1,0 +1,22 @@
+.musicPageHeader {
+    margin-top: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.musicPageHeader .arrow {
+    width: 28px;
+    height: 28px;
+    background-color: #fff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.musicPageHeader .arrowLeft {
+    background-color: #ffddbd;
+    margin-right: 8px;
+}

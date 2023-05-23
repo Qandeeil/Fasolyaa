@@ -1,0 +1,46 @@
+.bottomBarSong {
+  width: 40%;
+}
+
+.bottomBarSong .bottomBarSong {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomBarSong .bottomBarSong .containerIconPaused img,
+.bottomBarSong .bottomBarSong .containerIconPlay img {
+  margin: 0 32px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.bottomBarSong .bottomBarSong img {
+  cursor: pointer;
+}
+
+.bottomBarSong .bottomBarSong .Next {
+  margin-right: 60px;
+}
+
+.bottomBarSong .bottomBarSong .Back {
+  margin-left: 60px;
+}
+
+.barBtn {
+  padding: 0;
+}
+
+.CTBtn {
+  flex-basis: 10%;
+  font-weight: 450;
+  font-size: 11px;
+  line-height: 14px;
+}
+
+.DBtn {
+  flex-basis: 10%;
+  font-weight: 450;
+  font-size: 11px;
+}

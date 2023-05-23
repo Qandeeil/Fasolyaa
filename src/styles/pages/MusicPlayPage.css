@@ -1,0 +1,138 @@
+.musicPlayPage {
+  margin-right: 48px;
+}
+
+.musicPlayPage .containerSongData {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.musicPlayPage .containerSongData .data {
+}
+
+.musicPlayPage .containerSongData .data .coverImage {
+  width: 389px;
+  height: 283px;
+  box-shadow: 0px 34px 54px rgba(255, 68, 56, 0.2);
+  border-radius: 30px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.musicPlayPage .containerSongData .data .coverImage img {
+  width: 40%;
+}
+
+.musicPlayPage .containerSongData .data .reactOptions {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 21px;
+  margin-bottom: 19px;
+  flex-direction: row-reverse;
+}
+
+.musicPlayPage .containerSongData .data .reactOptions .op {
+  width: 52px;
+  height: 52px;
+  background-color: #fff;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.musicPlayPage .containerSongData .data .reactOptions .op img {
+  width: 25px;
+  height: 25px;
+}
+
+.musicPlayPage .containerSongData .data .text {
+  color: #fff;
+  text-align: center;
+}
+
+.musicPlayPage .containerSongData .data .text h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 47px;
+}
+
+.musicPlayPage .containerSongData .data .text p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 29px;
+}
+
+.musicPlayPage .containerSongData .data .playSong {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.musicPlayPage .containerSongData .data .playSong img {
+  cursor: pointer;
+}
+
+.musicPlayPage .containerSongData .data .playSong .containerIconPlay {
+  background-color: #fff;
+  width: 83px;
+  height: 83px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.musicPlayPage .containerSongData .data .playSong .containerIconPaused {
+  background-color: #9fd657;
+  width: 83px;
+  height: 83px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.audio-controls {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 5px;
+  background-color: #E0E6F0;
+  border-radius: 10px;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #9FD657;
+  transition: width 0.3s ease-in-out;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+  color: #888;
+  font-size: 12px;
+}
+
+.current-time,
+.duration {
+  flex-basis: 50%;
+  text-align: center;
+  color: #423677;
+  margin-top: 5px;
+  font-size: 14px;
+}

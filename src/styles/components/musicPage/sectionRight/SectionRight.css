@@ -1,0 +1,55 @@
+.musicSectionRight {
+  display: flex;
+  margin-top: 23px;
+  justify-content: flex-end;
+}
+
+.musicSectionRight .musicContainerRight {
+  text-align: right;
+}
+
+.musicSectionRight .musicContainerRight .logoMusic {
+  background-color: #fff;
+  width: 212px;
+  height: 212px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 20.2548px 81.0191px rgba(0, 0, 0, 0.06);
+  border-radius: 13.5032px;
+  margin-bottom: 8px;
+}
+
+.musicSectionRight .musicContainerRight h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 61px;
+  color: #fff;
+}
+
+.musicSectionRight .musicContainerRight .numberOfSongs {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.musicSectionRight .musicContainerRight .containerPlay {
+  background: #9fd657;
+  border-radius: 46.2123px;
+  width: 211px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  cursor: pointer;
+  margin-top: 18px;
+}
+
+.musicSectionRight .musicContainerRight .containerPlay span {
+  font-weight: 700;
+  font-size: 18.4849px;
+  color: #fff;
+}

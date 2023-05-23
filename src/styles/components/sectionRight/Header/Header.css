@@ -1,0 +1,63 @@
+.headerSliderRight {
+  padding: 30px 43.23px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 34px;
+}
+
+.list a {
+  text-align: right;
+  text-decoration: none;
+  color: #92a2ad;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 8px 0;
+  transition: 0.25s;
+}
+
+.list a:hover {
+  color: #000;
+}
+
+.list a .icon {
+  border-radius: 15.3752px;
+  width: 41px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list a .ich {
+  background-color: #fff8d9;
+}
+
+.list a .icso {
+  background-color: #ff87258a;
+}
+
+.list a .ics {
+  background-color: #ecf7dd;
+}
+
+.list a .icf {
+  background-color: #ebf7fe;
+}
+
+.list a .icb {
+  background-color: #ebf7fe;
+}
+
+.list .active {
+  color: #000;
+}
+
+.list a span {
+  margin-right: 14px;
+}

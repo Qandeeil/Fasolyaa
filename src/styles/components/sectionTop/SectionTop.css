@@ -1,0 +1,8 @@
+.sectionTop {
+    background-color: #ffb04c;
+    width: 100%;
+    height: 98px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

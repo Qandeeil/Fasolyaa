@@ -1,0 +1,55 @@
+.musicList {
+  margin-right: 56px;
+  margin-top: 18px;
+  width: 100%;
+  margin-left: 103px;
+  height: 600px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.musicList .containerMusicList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #3128581e;
+  margin-top: 9px;
+}
+
+.musicList .containerMusicList .author{
+    width: 115px;
+    text-align: right;
+}
+
+.musicList .text {
+  font-weight: 700;
+  font-size: 17px;
+  color: #fff;
+}
+
+.musicList .containerCover {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  cursor: pointer;
+  width: 240px;
+}
+
+.musicList .containerCover .cover {
+  width: 55px;
+  height: 55px;
+  border-radius: 9px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 11px;
+}
+
+.option {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
